@@ -160,7 +160,8 @@ echo "COPYING ALL PLOTS INTO PLOT DIRECTORY: $plot_dir"
 mkdir -p "$plot_dir"
 
 # Find and copy all .png and .pdf plots into $plot_dir
-find . -type f \( -iname "*.png" -o -iname "*.pdf" \) -exec cp {} "$plot_dir/" \;
+# Find and move all .png and .pdf plots into $plot_dir
+find . -type f \( -iname "*.png" -o -iname "*.pdf" \) -exec mv {} "$plot_dir/" \;
 
 echo "All plots successfully copied to $plot_dir."
 ######################## FINAL OUTPUT MANAGEMENT##############
