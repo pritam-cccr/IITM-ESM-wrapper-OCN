@@ -19,14 +19,14 @@ end_year_model1=1995               # End year for Model 1 data
 output_prefix_model1="model1"       # Output file prefix for Model 1
 
 # Model 2 data settings (Mandatory for comparison)
-netcdf_dir_model2="/media/iitm/TOSHIBA_PRITAM/CMIP6/OCN"  # Directory containing Model 2 data files
+netcdf_dir_model2="/home/cccr/shamal/CMIP6/OCN"  # Directory containing Model 2 data files
 start_year_model2=1990              # Start year for Model 2 data
-end_year_model2=1995                # End year for Model 2 data
+end_year_model2=2014                # End year for Model 2 data
 output_prefix_model2="model2"       # Output file prefix for Model 2
 
 # Observation data settings
-obs_data_dir="/media/iitm/TOSHIBA_PRITAM/WOA23"  # Directory containing observational data files
-start_year_obs=1990                   # Start year for observational data
+obs_data_dir="/home/cccr/pritam/OBS_wrapper/WOA23"  # Directory containing observational data files
+start_year_obs=1991                   # Start year for observational data
 end_year_obs=2020                      # End year for observational data
 
 # Seasonal settings
